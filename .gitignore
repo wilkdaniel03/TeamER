@@ -1,0 +1,8 @@
+# IDE's configuration
+.idea/
+.code
+
+# NodeJS package manager's
+node_modules/
+yarn.lock
+package.lock.json
