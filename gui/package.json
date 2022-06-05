@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "webpack serve --config ./config/webpack.config.js"
+  },
   "dependencies": {
     "dotenv": "^16.0.1",
     "react": "^18.1.0",
