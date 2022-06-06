@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "webpack serve --config ./config/webpack.config.js"
+    "dev": "webpack serve"
   },
   "dependencies": {
     "dotenv": "^16.0.1",

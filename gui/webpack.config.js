@@ -1,5 +1,5 @@
 const path = require("path")
-require("dotenv").config({ path: path.resolve(__dirname, "../.env") })
+require("dotenv").config()
 
 const HtmlWebpackPlugin = require("webpack-html-plugin")
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin")
@@ -19,7 +19,7 @@ if (process.env.MODE == undefined || process.env.PORT == undefined) {
 module.exports = {
   mode: process.env.MODE,
 
-  entry: path.resolve(__dirname, "../src"),
+  entry: path.resolve(__dirname, "./src"),
 
   resolve: { extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'] },
 
