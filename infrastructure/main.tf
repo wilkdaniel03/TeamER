@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     linode = {
-      source = "linode/linode"
+      source  = "linode/linode"
       version = "~> 1.27.0"
     }
   }
@@ -10,4 +10,12 @@ terraform {
 
 provider "linode" {
   token = var.token
+}
+
+resource "linode_instance" "vm" {
+  label     = "node"
+  image     = "linode/ubuntu21.04"
+  region    = "eu-west"
+  type      = "g6-nanode-1"
+  root_pass = "terr4form-test"
 }
