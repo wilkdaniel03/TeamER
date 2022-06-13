@@ -1,7 +1,12 @@
 import React from 'react'
+import { Container } from '../components' 
 
 const AuthPage = () => {
-    return <h1>Hello from auth page</h1>
+
+  return (
+    <Container>
+    </Container>
+  )
 }
 
 export default AuthPage
