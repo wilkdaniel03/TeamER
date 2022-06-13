@@ -5,7 +5,6 @@ import AuthPageHeading from './AuthPageHeading'
 import { Container, Button } from '../components'
 
 const AuthPage = () => {
-
   return (
     <Container>
       <>
@@ -27,6 +26,10 @@ const AuthPage = () => {
               <img src={googleIcon} width="40px" />
             </span>
           </div>
+          <h2 className="block mt-8">
+            I already have an account
+            <span className="text-blue font-medium"> Login</span>
+          </h2>
         </footer>
       </>
     </Container>
