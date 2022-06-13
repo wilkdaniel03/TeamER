@@ -1,7 +1,16 @@
 module.exports = {
-    content: ['./src/**/*.{js, jsx, ts, tsx}'],
-    theme: {
-        extend: {},
+  mode: 'jit',
+  content: ['./index.html', './src/**/*.tsx'],
+  theme: {
+    colors: {
+      white: '#fff',
+      blue: '#1363df',
+      black: '#000',
+      extend: {},
     },
-    plugins: [],
+    variants: {
+      extend: {},
+    },
+  },
+  plugins: [],
 }
