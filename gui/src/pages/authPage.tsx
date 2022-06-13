@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container } from '../components' 
 import AuthPageHeading from './AuthPageHeading'
+import { Container, Button } from '../components'
 
 const AuthPage = () => {
 
@@ -10,6 +10,9 @@ const AuthPage = () => {
         <header className="flex flex-col items-center">
           <AuthPageHeading />
         </header>
+        <footer className="flex flex-col items-center">
+          <Button value={'Create an Account'} />
+        </footer>
       </>
     </Container>
   )
