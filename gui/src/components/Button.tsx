@@ -11,7 +11,7 @@ const classes: string =
 
 export const Button: React.FC<ButtonProps> = ({ value, link }) => {
   return (
-    <Link to={link}>
+    <Link className="w-full" to={link}>
       <button className={classes}>{value}</button>
     </Link>
   )
