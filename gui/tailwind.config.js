@@ -11,10 +11,11 @@ module.exports = {
     },
     borderWidth: {
       1: '1px',
+      2: '2px',
     },
     variants: {
       extend: {},
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
